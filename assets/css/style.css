@@ -1,0 +1,9 @@
+/* ============================================================
+   Fresh Rescue — Modular Stylesheets Loader
+   Splits styles into focused files for easier readability.
+   ============================================================ */
+
+@import url('variables.css');
+@import url('navbar.css');
+@import url('components.css');
+@import url('pages.css');

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --primary-color: #2E7D32;       /* Forest Green */
+  --primary-hover: #1b5e20;
+  --secondary-color: #F9A826;     /* Amber Orange */
+  --bg-color: #ffffff;
+  --card-bg: #f8f9fa;             /* Very light gray */
+  --text-color: #212529;
+  --text-muted: #6c757d;
+  --border-color: #e9ecef;
+  
+  --radius-md: 8px;               /* Medium rounded corners */
+  --shadow-soft: 0 2px 12px rgba(0, 0, 0, 0.04); /* Very soft shadow */
+  
+  --font-family: 'Plus Jakarta Sans', sans-serif;
+  --transition: all 0.2s ease-in-out;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition);
+}
+
+/* ── Clean CSS Utilities (Avoiding inline style rules) ── */
+.text-primary-custom {
+  color: var(--primary-color) !important;
+}
+.bg-primary-custom {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: #fff !important;
+}
+.bg-primary-custom:hover {
+  background-color: var(--primary-hover) !important;
+}
+.rounded-custom {
+  border-radius: var(--radius-md) !important;
+}
+.border-top-none {
+  border-top: none !important;
+}
+.products-filter-select {
+  font-size: 0.85rem !important;
+  width: 150px !important;
+}
+.navbar-toggler-icon-white {
+  filter: invert(1) !important;
+}
+.max-width-auth {
+  max-width: 440px !important;
+}
+.max-width-register {
+  max-width: 500px !important;
+}
+.fs-badge {
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+}
+.btn-view-details-custom {
+  border-radius: var(--radius-md) !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+}
